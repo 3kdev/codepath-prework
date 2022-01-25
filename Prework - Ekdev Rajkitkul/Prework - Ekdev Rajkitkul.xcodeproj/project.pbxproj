@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2E388327872A3A00C4285B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E388227872A3A00C4285B /* AppDelegate.swift */; };
+		1A2E388527872A3A00C4285B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E388427872A3A00C4285B /* SceneDelegate.swift */; };
+		1A2E388727872A3A00C4285B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E388627872A3A00C4285B /* ViewController.swift */; };
+		1A2E388A27872A3A00C4285B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E388827872A3A00C4285B /* Main.storyboard */; };
+		1A2E388C27872A3A00C4285B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E388B27872A3A00C4285B /* Assets.xcassets */; };
+		1A2E388F27872A3A00C4285B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E388D27872A3A00C4285B /* LaunchScreen.storyboard */; };
+		1A2E389A27872A3B00C4285B /* Prework___Ekdev_RajkitkulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E389927872A3B00C4285B /* Prework___Ekdev_RajkitkulTests.swift */; };
+		1A2E38A427872A3B00C4285B /* Prework___Ekdev_RajkitkulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E38A327872A3B00C4285B /* Prework___Ekdev_RajkitkulUITests.swift */; };
+		1A2E38A627872A3B00C4285B /* Prework___Ekdev_RajkitkulUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E38A527872A3B00C4285B /* Prework___Ekdev_RajkitkulUITestsLaunchTests.swift */; };
+		1A2E38B3278F39CE00C4285B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E38B2278F39CE00C4285B /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A2E389627872A3B00C4285B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2E387727872A3A00C4285B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2E387E27872A3A00C4285B;
+			remoteInfo = "Prework - Ekdev Rajkitkul";
+		};
+		1A2E38A027872A3B00C4285B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2E387727872A3A00C4285B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2E387E27872A3A00C4285B;
+			remoteInfo = "Prework - Ekdev Rajkitkul";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2E387F27872A3A00C4285B /* Prework - Ekdev Rajkitkul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prework - Ekdev Rajkitkul.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2E388227872A3A00C4285B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A2E388427872A3A00C4285B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A2E388627872A3A00C4285B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A2E388927872A3A00C4285B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A2E388B27872A3A00C4285B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2E388E27872A3A00C4285B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A2E389027872A3A00C4285B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2E389527872A3B00C4285B /* Prework - Ekdev RajkitkulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - Ekdev RajkitkulTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2E389927872A3B00C4285B /* Prework___Ekdev_RajkitkulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___Ekdev_RajkitkulTests.swift"; sourceTree = "<group>"; };
+		1A2E389F27872A3B00C4285B /* Prework - Ekdev RajkitkulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework - Ekdev RajkitkulUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2E38A327872A3B00C4285B /* Prework___Ekdev_RajkitkulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___Ekdev_RajkitkulUITests.swift"; sourceTree = "<group>"; };
+		1A2E38A527872A3B00C4285B /* Prework___Ekdev_RajkitkulUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prework___Ekdev_RajkitkulUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		1A2E38B2278F39CE00C4285B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2E387C27872A3A00C4285B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389227872A3B00C4285B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389C27872A3B00C4285B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2E387627872A3A00C4285B = {
+			isa = PBXGroup;
+			children = (
+				1A2E38B2278F39CE00C4285B /* SettingsViewController.swift */,
+				1A2E388127872A3A00C4285B /* Prework - Ekdev Rajkitkul */,
+				1A2E389827872A3B00C4285B /* Prework - Ekdev RajkitkulTests */,
+				1A2E38A227872A3B00C4285B /* Prework - Ekdev RajkitkulUITests */,
+				1A2E388027872A3A00C4285B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2E388027872A3A00C4285B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2E387F27872A3A00C4285B /* Prework - Ekdev Rajkitkul.app */,
+				1A2E389527872A3B00C4285B /* Prework - Ekdev RajkitkulTests.xctest */,
+				1A2E389F27872A3B00C4285B /* Prework - Ekdev RajkitkulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2E388127872A3A00C4285B /* Prework - Ekdev Rajkitkul */ = {
+			isa = PBXGroup;
+			children = (
+				1A2E388227872A3A00C4285B /* AppDelegate.swift */,
+				1A2E388427872A3A00C4285B /* SceneDelegate.swift */,
+				1A2E388627872A3A00C4285B /* ViewController.swift */,
+				1A2E388827872A3A00C4285B /* Main.storyboard */,
+				1A2E388B27872A3A00C4285B /* Assets.xcassets */,
+				1A2E388D27872A3A00C4285B /* LaunchScreen.storyboard */,
+				1A2E389027872A3A00C4285B /* Info.plist */,
+			);
+			path = "Prework - Ekdev Rajkitkul";
+			sourceTree = "<group>";
+		};
+		1A2E389827872A3B00C4285B /* Prework - Ekdev RajkitkulTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2E389927872A3B00C4285B /* Prework___Ekdev_RajkitkulTests.swift */,
+			);
+			path = "Prework - Ekdev RajkitkulTests";
+			sourceTree = "<group>";
+		};
+		1A2E38A227872A3B00C4285B /* Prework - Ekdev RajkitkulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2E38A327872A3B00C4285B /* Prework___Ekdev_RajkitkulUITests.swift */,
+				1A2E38A527872A3B00C4285B /* Prework___Ekdev_RajkitkulUITestsLaunchTests.swift */,
+			);
+			path = "Prework - Ekdev RajkitkulUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2E387E27872A3A00C4285B /* Prework - Ekdev Rajkitkul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2E38A927872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev Rajkitkul" */;
+			buildPhases = (
+				1A2E387B27872A3A00C4285B /* Sources */,
+				1A2E387C27872A3A00C4285B /* Frameworks */,
+				1A2E387D27872A3A00C4285B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prework - Ekdev Rajkitkul";
+			productName = "Prework - Ekdev Rajkitkul";
+			productReference = 1A2E387F27872A3A00C4285B /* Prework - Ekdev Rajkitkul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A2E389427872A3B00C4285B /* Prework - Ekdev RajkitkulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2E38AC27872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev RajkitkulTests" */;
+			buildPhases = (
+				1A2E389127872A3B00C4285B /* Sources */,
+				1A2E389227872A3B00C4285B /* Frameworks */,
+				1A2E389327872A3B00C4285B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2E389727872A3B00C4285B /* PBXTargetDependency */,
+			);
+			name = "Prework - Ekdev RajkitkulTests";
+			productName = "Prework - Ekdev RajkitkulTests";
+			productReference = 1A2E389527872A3B00C4285B /* Prework - Ekdev RajkitkulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A2E389E27872A3B00C4285B /* Prework - Ekdev RajkitkulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2E38AF27872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev RajkitkulUITests" */;
+			buildPhases = (
+				1A2E389B27872A3B00C4285B /* Sources */,
+				1A2E389C27872A3B00C4285B /* Frameworks */,
+				1A2E389D27872A3B00C4285B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2E38A127872A3B00C4285B /* PBXTargetDependency */,
+			);
+			name = "Prework - Ekdev RajkitkulUITests";
+			productName = "Prework - Ekdev RajkitkulUITests";
+			productReference = 1A2E389F27872A3B00C4285B /* Prework - Ekdev RajkitkulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2E387727872A3A00C4285B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1A2E387E27872A3A00C4285B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1A2E389427872A3B00C4285B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1A2E387E27872A3A00C4285B;
+					};
+					1A2E389E27872A3B00C4285B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1A2E387E27872A3A00C4285B;
+					};
+				};
+			};
+			buildConfigurationList = 1A2E387A27872A3A00C4285B /* Build configuration list for PBXProject "Prework - Ekdev Rajkitkul" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2E387627872A3A00C4285B;
+			productRefGroup = 1A2E388027872A3A00C4285B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2E387E27872A3A00C4285B /* Prework - Ekdev Rajkitkul */,
+				1A2E389427872A3B00C4285B /* Prework - Ekdev RajkitkulTests */,
+				1A2E389E27872A3B00C4285B /* Prework - Ekdev RajkitkulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2E387D27872A3A00C4285B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2E388F27872A3A00C4285B /* LaunchScreen.storyboard in Resources */,
+				1A2E388C27872A3A00C4285B /* Assets.xcassets in Resources */,
+				1A2E388A27872A3A00C4285B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389327872A3B00C4285B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389D27872A3B00C4285B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2E387B27872A3A00C4285B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2E388727872A3A00C4285B /* ViewController.swift in Sources */,
+				1A2E388327872A3A00C4285B /* AppDelegate.swift in Sources */,
+				1A2E388527872A3A00C4285B /* SceneDelegate.swift in Sources */,
+				1A2E38B3278F39CE00C4285B /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389127872A3B00C4285B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2E389A27872A3B00C4285B /* Prework___Ekdev_RajkitkulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2E389B27872A3B00C4285B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2E38A427872A3B00C4285B /* Prework___Ekdev_RajkitkulUITests.swift in Sources */,
+				1A2E38A627872A3B00C4285B /* Prework___Ekdev_RajkitkulUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A2E389727872A3B00C4285B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2E387E27872A3A00C4285B /* Prework - Ekdev Rajkitkul */;
+			targetProxy = 1A2E389627872A3B00C4285B /* PBXContainerItemProxy */;
+		};
+		1A2E38A127872A3B00C4285B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2E387E27872A3A00C4285B /* Prework - Ekdev Rajkitkul */;
+			targetProxy = 1A2E38A027872A3B00C4285B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A2E388827872A3A00C4285B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2E388927872A3A00C4285B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A2E388D27872A3A00C4285B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2E388E27872A3A00C4285B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A2E38A727872A3B00C4285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A2E38A827872A3B00C4285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2E38AA27872A3B00C4285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U54NX3338;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prework - Ekdev Rajkitkul/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-Rajkitkul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2E38AB27872A3B00C4285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U54NX3338;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Prework - Ekdev Rajkitkul/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-Rajkitkul";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A2E38AD27872A3B00C4285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-RajkitkulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Ekdev Rajkitkul.app/Prework - Ekdev Rajkitkul";
+			};
+			name = Debug;
+		};
+		1A2E38AE27872A3B00C4285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-RajkitkulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework - Ekdev Rajkitkul.app/Prework - Ekdev Rajkitkul";
+			};
+			name = Release;
+		};
+		1A2E38B027872A3B00C4285B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-RajkitkulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Ekdev Rajkitkul";
+			};
+			name = Debug;
+		};
+		1A2E38B127872A3B00C4285B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Prework---Ekdev-RajkitkulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework - Ekdev Rajkitkul";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2E387A27872A3A00C4285B /* Build configuration list for PBXProject "Prework - Ekdev Rajkitkul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2E38A727872A3B00C4285B /* Debug */,
+				1A2E38A827872A3B00C4285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2E38A927872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev Rajkitkul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2E38AA27872A3B00C4285B /* Debug */,
+				1A2E38AB27872A3B00C4285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2E38AC27872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev RajkitkulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2E38AD27872A3B00C4285B /* Debug */,
+				1A2E38AE27872A3B00C4285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2E38AF27872A3B00C4285B /* Build configuration list for PBXNativeTarget "Prework - Ekdev RajkitkulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2E38B027872A3B00C4285B /* Debug */,
+				1A2E38B127872A3B00C4285B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2E387727872A3A00C4285B /* Project object */;
+}
